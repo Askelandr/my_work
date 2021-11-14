@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Возраст Серёни :3</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="age_counter.js"></script>
+    <script src="dateOfBirth.js"></script>
+    <script src="daysTillBirth.js"></script>
+    <script src="BdayAlert.js"></script>
+  </head>
+  <body>
+    <main class="main">
+      <section class="main-block">
+        <div class="block header">
+          <h1>Привет, Сережа!</h1>
+          <p>
+            Давайте посчитаем, сколько вам лет и когда праздновать день рождения
+          </p>
+        </div>
+        <div id="bday" class="block bday_alert">
+          <span
+            ><img
+              src="source/heart.png"
+              width="20"
+              height="20"
+              alt="Сердечко 1"
+          /></span>
+          <span>Ура! Сегодня день рождения!</span>
+          <span
+            ><img
+              src="source/heart.png"
+              width="20"
+              height="20"
+              alt="Сердечко 2"
+          /></span>
+        </div>
+        <div class="block counter">
+          <div class="vam_segodnya">Вам сегодня</div>
+          <div class="age_count">
+            <div class="counter_day-number" id="years"></div>
+            <div class="counter_day-number" id="months"></div>
+            <div class="counter_day-number" id="days"></div>
+          </div>
+          <div class="age_count">
+            <div>года</div>
+            <div>месяцев</div>
+            <div>дней</div>
+          </div>
+        </div>
+        <div class="block bday_count">
+          До следующего дня рождения осталось
+          <div style="font-size: 30px; color: #1a226b" id="days_left"></div>
+          дней
+        </div>
+        <div class="block footer">
+          <div class="kisses">
+            Для получения праздничных или повседневных обнимашек и поцелуйчиков,
+            обращайтесь к автору сайта
+          </div>
+          <div class="contacts">
+            <a href="mailto:k@wacha.ru">k@wacha.ru </a>
+            <a href="tel:+79161901478">+7 916 190 14 78 </a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
